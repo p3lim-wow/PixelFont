@@ -1,0 +1,7 @@
+## Interface: 70300
+## Author: p3lim
+## Version: @project-version@
+## Title: PixelFont
+## Notes: Amazing fonts for every occation
+
+PixelFont.xml
