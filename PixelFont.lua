@@ -16,7 +16,7 @@ for colorName, color in next, colors do
 end
 
 -- register with SharedMedia
-local LSM = LibStub('LibSharedMedia-3.0')
+local LSM = LibStub('LibSharedMedia-3.0', true)
 if(LSM) then
 	LSM:Register(LSM.MediaType.FONT, 'Semplice', [[Interface\AddOns\PixelFont\fonts\semplice.ttf]])
 	LSM:Register(LSM.MediaType.FONT, 'Homespun', [[Interface\AddOns\PixelFont\fonts\homespun.ttf]])
