@@ -15,9 +15,11 @@ for colorName, color in next, colors do
 	font:SetTextColor(color:GetRGB())
 end
 
--- register with SharedMedia
-local LSM = LibStub('LibSharedMedia-3.0', true)
-if(LSM) then
-	LSM:Register(LSM.MediaType.FONT, 'Semplice', [[Interface\AddOns\PixelFont\fonts\semplice.ttf]])
-	LSM:Register(LSM.MediaType.FONT, 'Homespun', [[Interface\AddOns\PixelFont\fonts\homespun.ttf]])
+if(LibStub) then
+	-- register with SharedMedia
+	local LSM = LibStub('LibSharedMedia-3.0', true)
+	if(LSM) then
+		LSM:Register(LSM.MediaType.FONT, 'Semplice', [[Interface\AddOns\PixelFont\fonts\semplice.ttf]])
+		LSM:Register(LSM.MediaType.FONT, 'Homespun', [[Interface\AddOns\PixelFont\fonts\homespun.ttf]])
+	end
 end

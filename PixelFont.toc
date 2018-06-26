@@ -3,5 +3,6 @@
 ## Version: @project-version@
 ## Title: PixelFont
 ## Notes: Amazing fonts for every occation
+## OptionalDeps: LibStub, LibSharedMedia-3.0
 
 PixelFont.xml
