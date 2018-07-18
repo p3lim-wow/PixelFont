@@ -1,6 +1,6 @@
 ## Interface: 80000
 ## Author: p3lim
-## Version: @project-version@
+## Version: 1
 ## Title: PixelFont
 ## Notes: Amazing fonts for every occation
 ## OptionalDeps: LibStub, LibSharedMedia-3.0
