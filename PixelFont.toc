@@ -1,4 +1,4 @@
-## Interface: 90000
+## Interface: 90001
 ## Author: p3lim
 ## Version: 1
 ## Title: PixelFont
